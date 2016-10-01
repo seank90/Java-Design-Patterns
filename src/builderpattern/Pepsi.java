@@ -1,0 +1,17 @@
+package builderpattern;
+
+/**
+ * Created by Sean Keane on 14/03/2016.
+ */
+class Pepsi extends ColdDrink {
+
+    @Override
+    public String name() {
+        return "Pepsi";
+    }
+
+    @Override
+    public float price() {
+        return 35.0f;
+    }
+}
